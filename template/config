@@ -1,13 +1,13 @@
 
 # 将以下 <template> 至换
 # 虚拟主机的网域名称
-VHOST=www.<template>.com
+VHOST=www.yourdomain.com
 
 # 缩写名称，系统中必须唯一不可重复 
-VID=<template>
+VID=yourdomain
 
 # email 用于 Letsencrypt SSL
-EMAIL=jack@mobistor.com
+EMAIL=admin@yourdomain.com
 
 # 资源限制
 CPUS=".2"
