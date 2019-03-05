@@ -84,7 +84,7 @@ Docker WordPress Hosting 的脚本，整合 nginx reverse proxy 及 letsencrypt 
    | 子命令 |说明 |
    |:-----:|:----|
    |run|建立相关的容器并启动，网域下只需执行一次，除非执行 clean 或 reset 后才需重新执行 run 命令。|
-   |stop|停止这个网域的所有容器。│
+   |stop|停止这个网域的所有容器。|
    |start|启动这个网域的所有容器，必须先用 run 建立。|
    |status|显示容器资源的使用状态。 |
    |clean|将所有容器删除，但不删除网页，数据库，快取等用户资料。需要用 run 再次建立容器。|
