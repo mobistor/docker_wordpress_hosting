@@ -88,6 +88,7 @@ docker_wordpress_hosting 的脚本，整合 nginx reverse proxy 及 letsencrypt 
 2. 增加 `define('WP_REDIS_HOST', 'redis');` 的定义。
 3. 在　WordPress 中，安装 "Redis Object Cache" 插件并启用及 enable。
 
+
 ##多 vhost 同时管理
 
 `all.sh` 可以同时管理所有的网站，
