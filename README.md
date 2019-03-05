@@ -22,16 +22,6 @@ docker_wordpress_hosting 的脚本，整合 nginx reverse proxy 及 letsencrypt 
 	├── template
 	│   ├── config
 	│   └── helper.sh -> ../../helper.sh
-	└── vhosts
-	    ├── www.ssidad.com
-	    │   ├── config
-	    │   └── helper.sh -> ../../helper.sh
-	    ├── www.tbsvpn.com
-	    │   ├── config
-	    │   └── helper.sh -> ../../helper.sh
-	    └── www.wififreego.com
-	        ├── config
-	        └── helper.sh -> ../../helper.sh
 	```
 
 2. 如果尚未安装 docker，请先安装 docker， ubuntu 系统下命令如下
