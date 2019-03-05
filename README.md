@@ -22,6 +22,16 @@ docker_wordpress_hosting 的脚本，整合 nginx reverse proxy 及 letsencrypt 
 	├── template
 	│   ├── config
 	│   └── helper.sh -> ../../helper.sh
+	└── vhosts
+	    ├── www.ssidad.com
+	    │   ├── config
+	    │   └── helper.sh -> ../../helper.sh
+	    ├── www.tbsvpn.com
+	    │   ├── config
+	    │   └── helper.sh -> ../../helper.sh
+	    └── www.wififreego.com
+	        ├── config
+	        └── helper.sh -> ../../helper.sh
 	```
 
 2. 如果尚未安装 docker，请先安装 docker， ubuntu 系统下命令如下
@@ -88,12 +98,12 @@ docker_wordpress_hosting 的脚本，整合 nginx reverse proxy 及 letsencrypt 
 2. 增加 `define('WP_REDIS_HOST', 'redis');` 的定义。
 3. 在　WordPress 中，安装 "Redis Object Cache" 插件并启用及 enable。
 
-
-##多 vhost 同时管理
+## 多 vhost 同时管理
 
 `all.sh` 可以同时管理所有的网站，
 
 ```
 $ ./all.sh [ start | stop | run | clean | reset ]
 ```
+
 
