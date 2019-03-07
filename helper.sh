@@ -29,8 +29,6 @@ run()
 	-e WORDPRESS_DB_USER=${MYSQL_USER} \
 	-e WORDPRESS_DB_PASSWORD=${MYSQL_PASSWORD} \
 	-e WORDPRESS_DB_DATABASE=${MYSQL_DATABASE} \
-	--memory="${MEMORY}" \
-        --cpus="${CPUS}" \
         --name ${WP_CONT} \
         --link ${DB_CONT}:mysql \
 	--link ${RD_CONT}:redis \

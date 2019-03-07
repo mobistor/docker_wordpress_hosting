@@ -10,8 +10,6 @@ VID=yourdomain
 EMAIL=admin@yourdomain.com
 
 # 资源限制
-CPUS=".2"
-MEMORY="300m"
 
 # 资料库的设定
 MYSQL_ROOT_PASSWORD=rootwordpress
